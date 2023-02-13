@@ -20,6 +20,8 @@
 | SRR3824222 | 2328 | 1062 | 97.08% |
 
 
+### 3. Коллинг метилирования
+
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR3824222_mbiasplot.png)
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836473_mbiasplot.png)
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836475_mbiasplot.png)
