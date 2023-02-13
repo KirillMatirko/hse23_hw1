@@ -60,3 +60,7 @@ plt.xlabel("% метилирования")
 plt.ylabel("Частота")
 plt.title("Epiblast")
 ```
+
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/8cell.png)
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/icm.png)
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/epiblast.png)
