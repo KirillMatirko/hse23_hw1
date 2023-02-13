@@ -14,3 +14,8 @@
 | SRR5836473 | 1090 | 464 | 81.69% |
 | SRR5836475 | 1456 | 630 | 90.92% |
 | SRR3824222 | 2328 | 1062 | 97.08% |
+
+
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR3824222_mbiasplot.png)
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836473_mbiasplot.png)
+![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836475_mbiasplot.png)
