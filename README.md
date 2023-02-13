@@ -49,4 +49,14 @@ plt.hist(df_8_cell[3], bins=100, density=True, stacked=True) #bins = 100(=мак
 plt.xlabel("% метилирования")
 plt.ylabel("Частота")
 plt.title("8 cell")
+
+plt.hist(df_icm[3], bins=100, density=True, stacked=True)
+plt.xlabel("% метилирования")
+plt.ylabel("Частота")
+plt.title("ICM")
+
+plt.hist(df_epiblast[3], bins=100, density=True, stacked=True)
+plt.xlabel("% метилирования")
+plt.ylabel("Частота")
+plt.title("Epiblast")
 ```
