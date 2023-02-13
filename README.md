@@ -34,3 +34,19 @@
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836475_mbiasplot.png)
 
 Для каждого образца представлено два графика, потому что это paired-end reads. Каждый график представляет пропорцию метилирования для каждой позиции рида. Мы можем видеть смещение метилирования на втором риде к началу у каждого образца. На первом риде процент практически постоянен.
+
+```python
+import pandas as pd
+
+df_8_cell = pd.read_csv("s_8_cell.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+df_icm = pd.read_csv("s_icm.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+df_epiblast = pd.read_csv("s_epiblast.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+df_8_cell.head()
+
+import matplotlib.pyplot as plt
+
+plt.hist(df_8_cell[3], bins=100, density=True, stacked=True) #bins = 100(=максимальному проценту), чтобы высота столбика отображала вероятность
+plt.xlabel("% метилирования")
+plt.ylabel("Частота")
+plt.title("8 cell")
+```
