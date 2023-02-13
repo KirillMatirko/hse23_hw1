@@ -22,6 +22,13 @@
 
 ### 3. Коллинг метилирования
 
+##### SRR3824222
+
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR3824222_mbiasplot.png)
+
+##### SRR5836473
+
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836473_mbiasplot.png)
+
+##### SRR5836475
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836475_mbiasplot.png)
