@@ -32,3 +32,5 @@
 
 ##### SRR5836475
 ![](https://github.com/KirillMatirko/hse23_hw1/blob/main/pics/SRR5836475_mbiasplot.png)
+
+Для каждого образца представлено два графика, потому что это paired-end reads. Мы можем видеть смещение метилирования на втором риде
